@@ -1,0 +1,35 @@
+GET http://localhost:3001
+
+###
+
+GET http://localhost:3001/detalje/633a932743e748411876e7dd
+
+###
+
+POST http://localhost:3001
+Content-Type: application/json
+
+{
+    "userName": "peter7",
+    "userMail": "peter2@gmail.com",
+    "userAge": 27
+
+}
+
+
+###
+
+DELETE  http://localhost:3001/633a932743e748411876e7dd
+
+###
+
+PATCH   http://localhost:3001/633a965443e748411876e7de
+Content-Type: application/json
+
+{
+    "userName": "Michael"
+
+
+}
+
+
